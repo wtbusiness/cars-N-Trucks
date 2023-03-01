@@ -5,8 +5,8 @@ public class MyOwnAutoShop {
         Sedan sedan = new Sedan(22, 20000, "blue", 25);
 
         // Create two instances of the Ford class and initialize all the fields with appropriate values
-        Ford ford1 = new Ford(2015, 1000, 15000, "red", 40);
-        Ford ford2 = new Ford(2017, 2000, 20000, "green", 45);
+        Ford ford1 = new Ford(2015, 1000,"red", 15000,  40);
+        Ford ford2 = new Ford(2017, 2000,"green", 20000, 45);
 
         // Create an instance of the Car class and initialize all the fields with appropriate values
         Car car = new Car(60, 10000, "yellow");
